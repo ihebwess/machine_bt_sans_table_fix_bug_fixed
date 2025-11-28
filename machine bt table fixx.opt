@@ -6,8 +6,8 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59414;
-  Bar[2]:=59415;
+  Bar[1]:=59415;
+  Bar[2]:=59414;
   Bar[3]:=59416;
   Bar[4]:=59412;
   Bar[5]:=0;
@@ -51,19 +51,20 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="1 5";
+  Visible:=0;
+  Pos:="41 5";
   Docking:=1;
-  MRUDockID:=0;
-  MRUDockPos:="1 5 251 238";
+  MRUDockID:=59422;
+  MRUDockPos:="41 5 1429 238";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="164451";
+  PctWidth:="910797";
   MRUFloat:="300 180";
-  MRUHorzDock:="250 233";
+  MRUHorzDock:="1388 233";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,19 +76,20 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="985 5";
+  Visible:=0;
+  Pos:="399 5";
   Docking:=1;
-  MRUDockID:=0;
-  MRUDockPos:="985 5 1536 238";
+  MRUDockID:=59422;
+  MRUDockPos:="399 5 1536 238";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="361511";
+  PctWidth:="743273";
   MRUFloat:="300 180";
-  MRUHorzDock:="551 233";
+  MRUHorzDock:="1137 233";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -110,7 +112,7 @@ BEGIN
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1789542";
+  PctWidth:="1789541";
   MRUFloat:="300 180";
   MRUHorzDock:="2738 233";
   MRUVertDock:="300 180";
@@ -148,19 +150,19 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
-  Pos:="257 5";
+  Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="257 5 979 238";
+  MRUDockPos:="1 5 1536 238";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="474036";
+  PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="722 233";
+  MRUHorzDock:="1535 233";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -180,39 +182,10 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=58;
- Selected:=29;
+ Selected:=31;
+ ScrollPos:="0 6";
 END;
 Frame[0]:=
-BEGIN
- Norm:="0026 0026 1131 0290";
- Min:="-001 -001";
- Path:="C:\Users\ihebw\OneDrive\Bureau\sotemail programme\last_version\machine bt table fixx.cxp";
- Access:="PROJECT:!NewProject.Resources.NewResource1";
- Type:=6;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0052 0052 1157 0316";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section1!Section1";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[2]:=
 BEGIN
  Norm:="0078 0078 1183 0342";
  Min:="-001 -001";
@@ -227,22 +200,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
-BEGIN
- Norm:="0104 0104 1209 0368";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section6!Section6";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=164;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
+Frame[1]:=
 BEGIN
  Norm:="0078 0078 1183 0342";
  Min:="-001 -001";
@@ -256,7 +214,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
+Frame[2]:=
 BEGIN
  Norm:="0000 0000 1102 0264";
  Min:="-001 -001";
@@ -266,12 +224,27 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=60;
+   Yscroll:=59;
   END;
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[3]:=
+BEGIN
+ Norm:="0104 0104 1206 0368";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.cycle_de_changement_de_box!cycle_de_changement_de_box";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=68;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
 BEGIN
  Norm:="0130 0130 1232 0394";
  Min:="-001 -001";
@@ -281,27 +254,27 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=39;
+   Yscroll:=167;
   END;
   nViews:=1;
  END;
 END;
-Frame[7]:=
+Frame[5]:=
 BEGIN
- Norm:="0182 0182 1209 0608";
+ Norm:="0104 0104 1209 0368";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section15!Section15";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section6!Section6";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=15;
+   Yscroll:=92;
   END;
   nViews:=1;
  END;
 END;
-Frame[8]:=
+Frame[6]:=
 BEGIN
  Norm:="0026 0026 1128 0290";
  Min:="-001 -001";
@@ -316,9 +289,8 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[9]:=
+Frame[7]:=
 BEGIN
- Max:=true;
  Norm:="0104 0104 1206 0368";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section13!Section13";
@@ -327,6 +299,52 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
+BEGIN
+ Norm:="0104 0104 1206 0368";
+ Min:="-001 -001";
+ Path:="C:\Users\ihebw\OneDrive\Bureau\machine_bt_version_final\machine bt table fixx.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=28;
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0182 0182 1209 0608";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section15!Section15";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=10;
   END;
   nViews:=1;
  END;
