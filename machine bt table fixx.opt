@@ -4,13 +4,15 @@ BEGIN
  Bar[0]:=
  BEGIN
   BarID:=59422;
-  Bars:=6;
+  Bars:=8;
   Bar[0]:=0;
-  Bar[1]:=59415;
-  Bar[2]:=59414;
-  Bar[3]:=59412;
-  Bar[4]:=59416;
-  Bar[5]:=0;
+  Bar[1]:=59414;
+  Bar[2]:=0;
+  Bar[3]:=59416;
+  Bar[4]:=0;
+  Bar[5]:=59412;
+  Bar[6]:=59415;
+  Bar[7]:=0;
   Style:=0;
   ExStyle:=0;
   PrevFloating:=0;
@@ -51,19 +53,20 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="261 5";
+  Visible:=0;
+  Pos:="772 5";
   Docking:=1;
-  MRUDockID:=59422;
-  MRUDockPos:="261 5 1276 223";
+  MRUDockID:=0;
+  MRUDockPos:="772 5 1536 156";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-2147483648 832";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="666665";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1015 218";
+  MRUHorzDock:="764 337";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,19 +78,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="1282 5";
+  Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1282 5 1536 223";
+  MRUDockPos:="1 5 766 214";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="166667";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="254 218";
+  MRUHorzDock:="765 209";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -100,19 +103,19 @@ BEGIN
  BEGIN
   BarID:=59416;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="1 162";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 566 185";
+  MRUDockPos:="1 162 759 268";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1789541";
+  PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="2738 218";
+  MRUHorzDock:="758 114";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,7 +130,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 298 409";
+  MRUDockPos:="0 -2 269 418";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -137,7 +140,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="298 411";
+  MRUVertDock:="269 420";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -148,20 +151,21 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
-  Pos:="1 5";
+  Pos:="772 5";
+  MRUWidth:=1463;
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1 5 255 223";
-  MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUDockPos:="772 5 1536 214";
+  MRUFloatStyle:=8192;
+  MRUFloatPos:="10 43";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="166667";
-  MRUFloat:="300 180";
-  MRUHorzDock:="254 218";
-  MRUVertDock:="300 180";
+  PctWidth:="500000";
+  MRUFloat:="1463 150";
+  MRUHorzDock:="764 209";
+  MRUVertDock:="271 636";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -181,6 +185,7 @@ BEGIN
  ItemCount:=4;
  Sumcheck:=59;
  Selected:=19;
+ ScrollPos:="0 1";
 END;
 Frame[0]:=
 BEGIN
@@ -200,7 +205,7 @@ Frame[1]:=
 BEGIN
  Norm:="0104 0104 0358 0521";
  Min:="-001 -001";
- Path:="C:\Users\ihebw\OneDrive\Bureau\machine_bt_version_final\machine bt table fixx.cxp";
+ Path:="C:\Users\mohamed\Desktop\machine_bt_sans_table_fix_bug_fixed\machine_bt_sans_table_fix_bug_fixed\machine bt table fixx.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1";
  Type:=8;
  Views:=
@@ -228,21 +233,6 @@ BEGIN
 END;
 Frame[3]:=
 BEGIN
- Norm:="0104 0104 1206 0421";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section6!Section6";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=68;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
  Norm:="0078 0078 1102 0504";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section5!Section5";
@@ -256,12 +246,11 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
+Frame[4]:=
 BEGIN
- Max:=true;
- Norm:="0130 0130 1232 0409";
+ Norm:="0000 0000 1209 0153";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section3!Section3";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section7!Section7";
  Type:=1;
  Views:=
  BEGIN
@@ -272,7 +261,38 @@ BEGIN
   nViews:=1;
  END;
 END;
-nFrames:=6;
+Frame[5]:=
+BEGIN
+ Norm:="0104 0104 1206 0421";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section6!Section6";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=176;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Max:=true;
+ Norm:="0130 0130 1232 0409";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section3!Section3";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=175;
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=7;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
@@ -283,9 +303,9 @@ BEGIN
   ColumnWidth[1]:=60;
   ColumnWidth[2]:=60;
   ColumnWidth[3]:=60;
-  ColumnWidth[4]:=60;
+  ColumnWidth[4]:=72;
   ColumnWidth[5]:=60;
-  NumWatches:=2;
+  NumWatches:=4;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -295,6 +315,22 @@ BEGIN
    Type:=0;
   END;
   Watch[1]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="DM1940";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[2]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="DM1990";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[3]:=
   BEGIN
   END;
  END;
